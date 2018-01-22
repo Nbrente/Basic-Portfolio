@@ -68,3 +68,17 @@ body{
 	border-radius: 0px;
 	width: 140px;
 }
+
+.portfolio-img {
+	width: 100%;
+	padding: 1rem ;
+}
+
+.port-overlay {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 1rem;
+}
