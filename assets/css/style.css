@@ -1,0 +1,51 @@
+#about-me {
+	background-color: white;
+	border-color: #dddddd;
+}
+
+body{
+	background-color: #ffffff;
+}
+
+#name {
+	color: white;
+	display: inline;
+	background-color: #4aaaa5;
+	border: 5px;
+	margin: 2px 1px 2px 1px;
+}
+
+.nav-border {
+	border-bottom: 2px solid #ccc!important;
+	border-color: #dddddd;
+}
+
+.nav-btn-custom {
+	padding-right: 2rem;
+	background-color: transparent;
+    color: black;
+    border: none;
+}
+
+.width-inherit {
+	width: inherit;
+}
+
+.content-cont-custom {
+	width: 960px;
+}
+
+.left-cont-custom {
+	width: 650px;
+}
+
+.right-cont-custom {
+	width: 270px;
+}
+
+#portfolio-picture {
+	width: 100px;
+    float: left;
+    margin-right: 2rem;
+
+}
