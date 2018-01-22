@@ -53,3 +53,18 @@ body{
 .connect-img {
 	width: 50px;
 }
+
+#msg-box {
+	height: 200px;
+}
+
+.form-input {
+	width: 100%;
+}
+
+.form-btn-custom {
+	background-color: #4aaaa5;
+	border-color: #4aaaa5;
+	border-radius: 0px;
+	width: 140px;
+}
