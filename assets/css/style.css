@@ -156,3 +156,7 @@ body{
 p {
 	padding-bottom: 2rem;
 }
+
+.end-page {
+	bottom: 2rem;
+}
