@@ -1,13 +1,27 @@
+header {
+	background-color: white;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2,h3 {
+	color: #4aaaa5;
+}
+
 #about-me {
 	background-color: white;
 	border-color: #dddddd;
 }
 
 body{
-	background-color: #ffffff;
+	background-image: url(../images/background.png);
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #name {
+	padding: 1rem;
 	color: white;
 	display: inline;
 	background-color: #4aaaa5;
@@ -37,10 +51,12 @@ body{
 
 .left-cont-custom {
 	width: 650px;
+	background-color: white;
 }
 
 .right-cont-custom {
 	width: 270px;
+	background-color: white;
 }
 
 #portfolio-picture {
