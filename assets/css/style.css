@@ -2,17 +2,54 @@ header {
 	background-color: white;
 }
 
-h1,h2,h3,h4 {
+hr {
+	border-style: ;
+	border-width: 2;
+}
+
+.sticky-footer {
+	border-top: 3px solid #4aaaa5;
+	background-color: #666666;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	padding: 1rem;
+	color: #ffffff;
+	font-size: 9px;
+}
+
+title {
+	margin-left: 2rem;
+}
+
+.connect-img {
+	margin-bottom: 1rem;
+	margin-left: 1px ;
+	margin-right: 1px;
+}
+
+#name-logo {
+	padding-left:  4rem;
+}
+
+title,h1,h2,h3,h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-h2,h3 {
+h1,h2 {
 	color: #4aaaa5;
+	padding-top: 1rem;
+}
+
+h2 {
+	font-size:23px;
 }
 
 #about-me {
 	background-color: white;
 	border-color: #dddddd;
+	margin-right: 0px;
 }
 
 body{
@@ -21,17 +58,24 @@ body{
 }
 
 #name {
-	padding: 1rem;
 	color: white;
 	display: inline;
 	background-color: #4aaaa5;
 	border: 5px;
 	margin: 2px 1px 2px 1px;
+	padding: 16px;
 }
 
 .nav-border {
-	border-bottom: 2px solid #ccc!important;
+	border-bottom: 1px solid #ccc!important;
 	border-color: #dddddd;
+	position: relative;
+	top: 0px;
+	right: 15px;
+	min-height:  2rem;
+}
+#nav-btns-custom {
+	text-align: right
 }
 
 .nav-btn-custom {
@@ -39,10 +83,15 @@ body{
 	background-color: transparent;
     color: black;
     border: none;
+    text-align: right;
+}
+
+#stubborn{
+	    text-align: right;
 }
 
 .width-inherit {
-	width: inherit;
+	width: ;
 }
 
 .content-cont-custom {
@@ -52,11 +101,13 @@ body{
 .left-cont-custom {
 	width: 650px;
 	background-color: white;
+	margin: 2rem;
 }
 
 .right-cont-custom {
 	width: 270px;
 	background-color: white;
+	margin: 2rem;
 }
 
 #portfolio-picture {
@@ -83,6 +134,7 @@ body{
 	border-color: #4aaaa5;
 	border-radius: 0px;
 	width: 140px;
+	margin-bottom: 2rem;
 }
 
 .portfolio-img {
@@ -93,8 +145,14 @@ body{
 .port-overlay {
 	position: absolute;
 	bottom: 50px;
-	width: 100%;
+	width: 263px;
 	background-color: #4aaaa5;
 	color: white;
 	padding: 1rem;
+	margin-left: 1rem;
+
+}
+
+p {
+	padding-bottom: 2rem;
 }
